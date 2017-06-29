@@ -1,0 +1,21 @@
+//header
+
+.z-i-1000{
+  z-index: 1000;
+}
+//home
+#home{
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  & div{
+    height: 18rem;
+    width: 18rem;
+    @media #{$large-and-up} {
+      height: 25rem;
+      width: 25rem;
+    }
+  }
+  h2{
+    border: 0.5rem solid;
+  }
+}
