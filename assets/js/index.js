@@ -8,4 +8,7 @@ $(document).ready(function(){
   });
   //carousel-slider
   $('.carousel').carousel();
+
+  $('.parallax').parallax();
+  
 });

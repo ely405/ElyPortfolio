@@ -6590,17 +6590,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .z-i-1000 {
   z-index: 1000; }
 
-#home {
-  background-image: url("../img/home.jpg");
-  background-size: cover; }
-  #home div {
-    height: 18rem;
-    width: 18rem; }
-    @media only screen and (min-width: 993px) {
-      #home div {
-        height: 25rem;
-        width: 25rem; } }
-  #home h2 {
-    border: 0.5rem solid; }
+#home div {
+  height: 18rem;
+  width: 18rem; }
+  @media only screen and (min-width: 993px) {
+    #home div {
+      height: 25rem;
+      width: 25rem; } }
+#home h2 {
+  border: 0.5rem solid; }
 
 /*# sourceMappingURL=materialize.css.map */
