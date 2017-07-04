@@ -5825,17 +5825,17 @@ input[type=range]:focus::-ms-fill-upper {
         font-size: 15px; }
   .carousel .carousel-item {
     display: none;
-    width: 60%;
+    width: 70%;
     height: 200px;
     position: absolute;
     top: 0;
     left: 0; }
     @media only screen and (min-width: 601px) {
       .carousel .carousel-item {
-        width: 40%; } }
+        width: 50%; } }
     @media only screen and (min-width: 993px) {
       .carousel .carousel-item {
-        width: 25%; } }
+        width: 40%; } }
     .carousel .carousel-item > img {
       width: 100%; }
   .carousel .indicators {
