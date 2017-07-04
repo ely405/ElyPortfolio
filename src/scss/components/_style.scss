@@ -19,3 +19,10 @@
     border: 0.5rem solid;
   }
 }
+
+//conóceme
+.im-list{
+  & li{
+    border-bottom: 1px solid gray;
+  }
+}

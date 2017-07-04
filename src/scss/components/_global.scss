@@ -42,11 +42,11 @@ a {
 
 // Positioning
 .valign-wrapper {
-  display: flex;
+  @include flexbox;
   align-items: center;
 }
 .justify-center{
-  justify-content: center;
+  @include justify-content(center);
 }
 .flex-column{
   flex-direction: column;
