@@ -1,15 +1,27 @@
 @import "materialize/materialize";
 
-//header
+.justify-around{
+  justify-content: space-around;
+}
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.m-1rm{
+  margin: 1rem;
+}
+
+//header
 .z-i-1000{
   z-index: 1000;
 }
+
 //home
 #home{
   // background-image: url("../img/home.jpg");
   // background-size: cover;
-  & div{
+  & .circle-logo{
     height: 18rem;
     width: 18rem;
     @media #{$large-and-up} {
@@ -27,4 +39,58 @@
   & li{
     border-bottom: 1px solid gray;
   }
+}
+
+//habilidades
+@-webkit-keyframes skills-icons-animation {
+  to {color: deeppink}
+  from {color: pink}
+}
+
+@keyframes skills-icons-animation {
+  to {color: deeppink}
+  from {color: pink}
+}
+
+.skills-icons {
+  & i{
+    transition-duration: 1s;
+  }
+  & i:hover{
+    color: pink;
+    -ms-transform: scale(2,3);
+    -webkit-transform: scale(2,3);
+    transform: scale(2,2);
+    animation-iteration-count: 2;
+    -webkit-animation-name: skills-icons-animation;
+    -webkit-animation-duration: 4s;
+    animation-name: skills-icons-animation;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+  }
+}
+
+
+// contactame 
+.contact-icons .contact-li {
+  width: 5rem;
+  height: 5rem;
+  background-color: #f50057;
+  &:hover{
+    background-color: gray;
+  }
+  &.btn-fix-contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.contact-icons .contact-li:after, .contact-icons-list .contact-li {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
