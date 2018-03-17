@@ -9,28 +9,21 @@
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/ani-css.css">
   <title>Elizabeth Condori</title>
 </head>
 <body>
-  <header class="z-i-1000">
-    <nav class="nav-extended pinned">
-      <div class="nav-wrapper valign-wrapper">
-        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-desktop" class="right hide-on-med-and-down">
+    <header class="z-i-1000">
+      <nav class="pinned">
+        <ul id="slide-out" class="side-nav">
           <li><a href="#home" id="start">Inicio</a></li>
           <li><a href="#about-me-section" id="about-me">Conóceme</a></li>
           <li><a href="#portfolio" id="proyect">Proyectos</a></li>
           <li><a href="#contact-section" id="contact">Contáctame</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a href="#home" id="start">Inicio</a></li>
-          <li><a href="#about-me-section" id="about-me">Conóceme</a></li>
-          <li><a href="#portfolio" id="proyect">Proyectos</a></li>
-          <li><a href="#contact-section" id="contact">Contáctame</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-up"><i class="material-icons">menu</i></a>
+      </nav>          
+    </header>
   <main>
     <section id="home" class="parallax-container valign-wrapper justify-center flex-column h-100vh white-text">
       <section class="parallax">
@@ -42,12 +35,12 @@
       </div>
     </section>
     <section id="about-me-section" class="valign-wrapper h-100vh flex-column justify-center pink accent-3 white-text">
-      <div class="container row">
-        <h3 class="center scrollflow -slide-right -opacity">CONÓCEME</h3>
-        <div class="col s12 m6 scrollflow -slide-left -opacity">
+      <div class="container row scrollflow -slide-left -opacity">
+        <h3 class="center">CONÓCEME</h3>
+        <div class="col s12 m6">
           <img src="assets/img/profile.jpg" alt="Imagen perfil" class="responsive-img">
         </div>
-        <div class="col s12 m6 scrollflow -slide-right -opacity">
+        <div class="col s12 m6">
           <h5 class="justify">Desarrollador Frontend (Metodología Ágil). Soy una persona extrovertida, buena comunicadora,
            altamente comprometida por agregar valor mediante la creación de herramientas digitales.</h5>
            <h5>Me gusta proponer ideas, tecnologias que ayuden al desarrollo de cada proyecto.</h5>
@@ -56,7 +49,7 @@
       </section>
       <section id="skills-section" class="valign-wrapper justify-center flex-column h-100vh grey darken-4 white-text">
         <h3 class="scrollflow -slide-bottom -opacity">MIS HABILIDADES</h3>
-        <div class="skills-icons fa-5x valign-wrapper justify-center flex-wrap container scrollflow -pop -opacity">
+        <div class="skills-icons fa-5x valign-wrapper justify-center flex-wrap container scrollflow -pop" data-anijs="if: scroll, on: window, do: rollIn animated, to: .fab">
           <i class="fab fa-js-square m-1rm"></i>
           <i class="fab fa-css3-alt m-1rm"></i>
           <i class="fab fa-sass m-1rm"></i>
@@ -124,7 +117,7 @@
         </div>
       </section>
       <section id="contact-section" class="row valign-wrapper justify-center flex-column h-100vh  grey darken-4 white-text">
-        <h3>CONTÁCTAME</h3>
+        <h3 class="scrollflow -slide-bottom -opacity">CONTÁCTAME</h3>
         <ul class="contact-icons valign-wrapper col s7 m5 l4 justify-around flex-wrap">
           <li class="contact-li valign-wrapper justify-center"><a target='_blank' class='contact-link white-text' href="https://api.whatsapp.com/send?phone=51935191659"><i class="fab fa-whatsapp fa-3x "></i></a></li>
           <li class="contact-li valign-wrapper justify-center"><a target='_blank' class='contact-link white-text' href="https://api.whatsapp.com/send?phone=51935191659"><i class="fab fa-whatsapp fa-3x "></i></a></li>
@@ -134,21 +127,13 @@
       </section>
     </main>
     <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col s6 l4">
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#home">Inicio</a></li>
-              <li><a class="grey-text text-lighten-3" href="#about-me-section">Conóceme</a></li>
-              <li><a class="grey-text text-lighten-3" href="#portfolio">Proyectos</a></li>
-              <li><a class="grey-text text-lighten-3" href="#contact-section">Contáctame</a></li>
-            </ul>
-          </div>
-        </div>
+      <div class="footer-copyright">
+        <h6 class="container center">© 2018 Copyright Text</h6>
       </div>
     </footer>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/eskju.jquery.scrollflow.min.js"></script>
+    <script src="assets/js/anijs-min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
