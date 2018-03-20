@@ -5,11 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="assets/css/fontawesome.css">    -->
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/ani-css.css">
   <title>Elizabeth Condori</title>
 </head>
 <body>
@@ -35,7 +32,7 @@
       </div>
     </section>
     <section id="about-me-section" class="valign-wrapper h-100vh flex-column justify-center pink accent-3 white-text">
-      <div class="container row scrollflow -slide-left -opacity">
+      <div class="container row">
         <h3 class="center">CONÓCEME</h3>
         <div class="col s12 m6">
           <img src="assets/img/profile.jpg" alt="Imagen perfil" class="responsive-img">
@@ -49,7 +46,7 @@
       </section>
       <section id="skills-section" class="valign-wrapper justify-center flex-column h-100vh grey darken-4 white-text">
         <h3 class="scrollflow -slide-bottom -opacity">MIS HABILIDADES</h3>
-        <div class="skills-icons fa-5x valign-wrapper justify-center flex-wrap container scrollflow -pop" data-anijs="if: scroll, on: window, do: rollIn animated, to: .fab">
+        <div class="skills-icons fa-5x valign-wrapper justify-center flex-wrap container scrollflow -pop">
           <i class="fab fa-js-square m-1rm"></i>
           <i class="fab fa-css3-alt m-1rm"></i>
           <i class="fab fa-sass m-1rm"></i>
@@ -63,58 +60,7 @@
       </section>
       <section id="portfolio" class="valign-wrapper justify-center flex-column h-100vh pink accent-3 white-text">
         <h3 class="scrollflow -slide-bottom -opacity">PORTAFOLIO</h3>
-        <div class="container">
-        <div class="slider">
-          <ul class="slides">
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/1">
-              <div class="caption center-align">
-                <h3>LabCar</h3>
-                <h5 class="light grey-text text-lighten-3">Es una aplicación con la que los usuarios pueden pedir taxi desde el lugar en el que se encuentren</h5>
-                <a class="btn waves-effect white grey-text darken-text-2" href="#detalle1"><i class="fab fa-github"></i> Github</a>
-                <button class="btn waves-effect white grey-text darken-text-2"><i class="fa fa-external-link-alt"></i> Demo</button>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/2">
-              <div class="caption left-align">
-                <h3>Chat</h3>
-                <h5 class="light grey-text text-lighten-3">Es una aplicación en el cual puedes platicar en grupo.</h5>
-                <h5 class="light grey-text text-lighten-3">Conoce más gente</h5>
-                <a class="btn waves-effect white grey-text darken-text-2" href="#detalle1"><i class="fab fa-github"></i> Github</a>
-                <button class="btn waves-effect white grey-text darken-text-2"><i class="fa fa-external-link-alt"></i> Demo</button>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/3">
-              <div class="caption right-align">
-                <h3>Right Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                <a class="btn waves-effect white grey-text darken-text-2" href="#detalle1"><i class="fab fa-github"></i> Github</a>
-                <button class="btn waves-effect white grey-text darken-text-2"><i class="fa fa-external-link-alt"></i> Demo</button>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/4">
-              <div class="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                <a class="btn waves-effect white grey-text darken-text-2" href="#detalle1"><i class="fab fa-github"></i> Github</a>
-                <button class="btn waves-effect white grey-text darken-text-2"><i class="fa fa-external-link-alt"></i> Demo</button>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- Modal Structure -->
-        <div id="detalle1" class="modal">
-          <div class="modal-content">
-            <h4>Nombre de proyecto</h4>
-            <p>Descripción de proyecto</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">VER</a>
-          </div>
-        </div>
+        <div id="rootPortfolio"></div>
       </section>
       <section id="contact-section" class="row valign-wrapper justify-center flex-column h-100vh  grey darken-4 white-text">
         <h3 class="scrollflow -slide-bottom -opacity">CONTÁCTAME</h3>
@@ -128,13 +74,13 @@
     </main>
     <footer class="page-footer">
       <div class="footer-copyright">
-        <h6 class="container center">© 2018 Copyright Text</h6>
+        <h6 class="container center">© 2018 Copyright</h6>
       </div>
     </footer>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/eskju.jquery.scrollflow.min.js"></script>
-    <script src="assets/js/anijs-min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/components/projectDetail.js"></script>
   </body>
   </html>
