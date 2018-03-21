@@ -8,6 +8,7 @@ $(document).ready(function(){
   //   $('#log-in-container').toggle('waves-block');
   // });
   $('.parallax').parallax();
-  $('.modal').modal();
-  $('.slider').slider();
+//   $('.modal').modal();
+//   $('.slider').slider();
+  $('.collapsible').collapsible();
 });

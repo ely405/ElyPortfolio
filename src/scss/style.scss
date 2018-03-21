@@ -70,6 +70,22 @@
   }
 }
 
+.skill{
+    position: relative;
+    .skill-description{
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        opacity: 0;
+    }
+    &:hover .skill-description{
+        opacity: 1;
+    }
+}
+
 
 // contactame 
 .contact-icons .contact-li {

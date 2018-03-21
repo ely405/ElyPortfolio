@@ -5279,6 +5279,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   animation-duration: 0.5s;
   animation-direction: alternate; }
 
+.skill {
+  position: relative; }
+  .skill .skill-description {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0; }
+  .skill:hover .skill-description {
+    opacity: 1; }
+
 .contact-icons .contact-li {
   width: 5rem;
   height: 5rem;

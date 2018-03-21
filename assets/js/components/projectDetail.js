@@ -67,22 +67,3 @@ const portfolioDetail = [
 ]
 
 $('#rootPortfolio').append(proyectDetail(portfolioDetail));
-
-
-// <div class="card col m6">
-//             <div class="card-image waves-effect waves-block waves-light">
-//               <img class="activator" src="assets/img/labCar.png">
-//             </div>
-            // <div class="card-content">
-            //   <span class="card-title activator grey-text text-darken-4">LabCar<i class="material-icons right">more_vert</i></span>
-            //     <a class="btn waves-effect waves-light red" target="_blank" href="https://www.google.com.pe/search?q=a+_blank&oq=a+_blank&aqs=chrome..69i57.5960j0j7&sourceid=chrome&ie=UTF-8">demo</a>
-            //     <button class="btn waves-effect waves-light red" type="button">Detalles</button>
-            //   </div>
-            //   <div class="card-action">
-            //     <a class="btn waves-effect waves-light red" target="_blank" href="https://www.google.com.pe/search?q=a+_blank&oq=a+_blank&aqs=chrome..69i57.5960j0j7&sourceid=chrome&ie=UTF-8">demo</a>
-            //     <a class="btn waves-effect waves-light red" target="_blank" href="https://www.google.com.pe/search?q=a+_blank&oq=a+_blank&aqs=chrome..69i57.5960j0j7&sourceid=chrome&ie=UTF-8">demo</a>            </div>
-//             <div class="card-reveal">
-//               <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-//               <p>Here is some more information about this product that is only revealed once clicked on.</p>
-//             </div>
-//           </div>
