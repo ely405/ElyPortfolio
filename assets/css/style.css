@@ -5230,6 +5230,52 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?ibn8bm");
+  src: url("fonts/icomoon.eot?ibn8bm#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?ibn8bm") format("truetype"), url("fonts/icomoon.woff?ibn8bm") format("woff"), url("fonts/icomoon.svg?ibn8bm#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.ico-3x {
+  font-size: 3em; }
+
+.ico-5x {
+  font-size: 5em; }
+
+.icon-webpack:before {
+  content: "\e906"; }
+
+.icon-ajax:before {
+  content: "\e902"; }
+
+.icon-bootstrap:before {
+  content: "\e903"; }
+
+.icon-jquery:before {
+  content: "\e904"; }
+
+.icon-redux:before {
+  content: "\e905"; }
+
+.icon-materialize:before {
+  content: "\e901"; }
+
+.icon-firebase:before {
+  content: "\e900"; }
+
 .justify-around {
   justify-content: space-around; }
 
@@ -5262,35 +5308,27 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     color: pink; } }
 @keyframes skills-icons-animation {
   to {
-    color: deeppink; }
+    color: deeppink;
+    -ms-transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    transform: scale(1.5, 1.5); }
   from {
-    color: pink; } }
-.skills-icons i {
+    color: pink;
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+.skills-icons li {
   transition-duration: 1s; }
-.skills-icons i:hover {
+.skills-icons li:hover {
   color: pink;
-  -ms-transform: scale(2, 3);
-  -webkit-transform: scale(2, 3);
-  transform: scale(2, 2);
   animation-iteration-count: 2;
   -webkit-animation-name: skills-icons-animation;
   -webkit-animation-duration: 4s;
   animation-name: skills-icons-animation;
   animation-duration: 0.5s;
   animation-direction: alternate; }
-
-.skill {
-  position: relative; }
-  .skill .skill-description {
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    opacity: 0; }
-  .skill:hover .skill-description {
-    opacity: 1; }
+  .skills-icons li:hover p {
+    display: none; }
 
 .contact-icons .contact-li {
   width: 5rem;

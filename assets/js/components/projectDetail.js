@@ -3,14 +3,11 @@
 const proyectDetail = (element) => {
     let row = $(' <div class="row container"></div>');
     element.map(e => {
-        console.log(e);
         const { title, imgSrc, imgAlt, detail, urlDemo, urlGithub, icons} = e;
-        console.log('icons', icons);
         let list = $('<ul class="valign-wrapper justify-around flex-wrap"></ul>');
         icons.map(icon => {
-            console.log('icon', icon);
             let iconLi = $(`<li class="contact-li valign-wrapper justify-center">
-                            <a target='_blank' class="grey-text text-darken-1"><i class="fab ${icon} fa-3x "></i></a>
+                            <i class="${icon} grey-text"></i>
                         </li>`);
             list.append(iconLi);
         })
@@ -25,8 +22,6 @@ const proyectDetail = (element) => {
                                 <a class="btn waves-effect m-1rm" href="${urlGithub}" target="_blank"><i class="fab fa-github"></i> Github</a>
                                 <a class="btn waves-effect m-1rm" href="${urlDemo}"><i class="fa fa-external-link-alt"></i> Demo</a>
                             </div>`);
-        // let cardAction = $(`<div class="card-action">
-        //                     </div>`);
         let cardReveral = $(`<div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">${title}<i class="material-icons right">close</i></span>
                                 <p class="grey-text">${detail}</p>     
@@ -46,7 +41,7 @@ const portfolioDetail = [
         detail: 'Es una aplicación que te permite pedir un taxi cuando quieras y en donde quieras, el diseño es responsivo',
         urlDemo: 'https://ely405.github.io/labCar/',
         urlGithub: 'https://github.com/ely405/labCar',
-        icons: ['fa-css3-alt', 'fa-html5', 'fa-js-square']
+        icons: ['fab fa-js-square fa-3x', 'fab fa-html5 fa-3x', 'fab fa-css3-alt fa-3x', 'icon-bootstrap ico-3x']
     },{
         title: 'Freelancer',
         imgAlt: 'Start Bootstrap plantilla de portafolio',
@@ -54,7 +49,7 @@ const portfolioDetail = [
         detail: `Freelancer es un tema de Bootstrap, en ésta réplica el diseño se realiza con flex-box, diseño responsivo`,
         urlDemo: 'https://ely405.github.io/start-boostrap/',
         urlGithub: 'https://github.com/ely405/start-boostrap',
-        icons: ['fa-css3-alt', 'fa-html5']        
+        icons: ['fab fa-js-square fa-3x', 'fab fa-css3-alt fa-3x', 'fab fa-html5 fa-3x']        
     },{
         title: 'Chat',
         imgAlt: 'Chat con firebase',
@@ -62,7 +57,7 @@ const portfolioDetail = [
         detail: `Es una aplicación con la que te puedes comunicar con varias personas a la vez`,
         urlDemo: 'https://ely405.github.io/start-boostrap/',
         urlGithub: 'https://github.com/ely405/start-boostrap',
-        icons: ['fa-css3-alt', 'fa-html5']        
+        icons: ['fab fa-js-square fa-3x', 'fab fa-react fa-3x', 'icon-firebase ico-5x', 'icon-webpack ico-3x', 'fab fa-css3-alt fa-3x']        
     }
 ]
 
