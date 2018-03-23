@@ -13,6 +13,10 @@
   margin: 1rem;
 }
 
+.p-03rem{
+    padding: 0.3rem;
+}
+
 //header
 .z-i-1000{
   z-index: 1000;
@@ -102,4 +106,9 @@
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+}
+
+#socialNetworksFixed{
+    top: 30%;
+    right: 0;
 }

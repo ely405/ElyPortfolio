@@ -106,7 +106,7 @@ $pink: (
 //   "accent-4":    #304ffe
 // );
 
-// $blue: (
+$blue: (
 //   "base":       #2196F3,
 //   "lighten-5":  #E3F2FD,
 //   "lighten-4":  #BBDEFB,
@@ -115,13 +115,13 @@ $pink: (
 //   "lighten-1":  #42A5F5,
 //   "darken-1":   #1E88E5,
 //   "darken-2":   #1976D2,
-//   "darken-3":   #1565C0,
+  "darken-3":   #1565C0,
 //   "darken-4":   #0D47A1,
 //   "accent-1":    #82B1FF,
 //   "accent-2":    #448AFF,
 //   "accent-3":    #2979FF,
 //   "accent-4":    #2962FF
-// );
+);
 
 // $light-blue: (
 //   "base":       #03a9f4,
@@ -140,22 +140,22 @@ $pink: (
 //   "accent-4":    #0091ea
 // );
 
-$cyan: (
-  "base":       #00bcd4,
-  "lighten-5":  #e0f7fa,
-  "lighten-4":  #b2ebf2,
-  "lighten-3":  #80deea,
-  "lighten-2":  #4dd0e1,
-  "lighten-1":  #26c6da,
-  "darken-1":   #00acc1,
-  "darken-2":   #0097a7,
-  "darken-3":   #00838f,
-  "darken-4":   #006064,
-  "accent-1":    #84ffff,
-  "accent-2":    #18ffff,
-  "accent-3":    #00e5ff,
-  "accent-4":    #00b8d4
-);
+// $cyan: (
+//   "base":       #00bcd4,
+//   "lighten-5":  #e0f7fa,
+//   "lighten-4":  #b2ebf2,
+//   "lighten-3":  #80deea,
+//   "lighten-2":  #4dd0e1,
+//   "lighten-1":  #26c6da,
+//   "darken-1":   #00acc1,
+//   "darken-2":   #0097a7,
+//   "darken-3":   #00838f,
+//   "darken-4":   #006064,
+//   "accent-1":    #84ffff,
+//   "accent-2":    #18ffff,
+//   "accent-3":    #00e5ff,
+//   "accent-4":    #00b8d4
+// );
 
 // $teal: (
 //   "base":       #009688,
@@ -345,9 +345,9 @@ $colors: (
   // "purple": $purple,
   // "deep-purple": $deep-purple,
   // "indigo": $indigo,
-  // "blue": $blue,
+  "blue": $blue,
   // "light-blue": $light-blue,
-  // "cyan": $cyan,
+//   "cyan": $cyan,
   // "teal": $teal,
   "green": $green,
   // "light-green": $light-green,

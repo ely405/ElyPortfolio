@@ -1,14 +1,31 @@
+const showAndHideSocialNetworks = () => {
+    $('#socialNetworksFixed').hide();
+    
+    $(window).scroll(() => {
+        var windowHeight = $(window).scrollTop();
+        var contactSection = $("#contact-section").offset();
+        contactSection = contactSection.top;
+
+        if(windowHeight >= contactSection){
+            $('#socialNetworksFixed').fadeOut(500);
+        }else{
+            $('#socialNetworksFixed').fadeIn(500);
+        }
+    });
+}
+
+
+
+
+
 $(document).ready(function(){
-  //menu
-  $(".button-collapse").sideNav({
-    menuWidth: '30%',
+    //menu
+    $(".button-collapse").sideNav({
+        menuWidth: '30%',
     closeOnClick: true
-  });
-  // $('#log-in').click(()=>{
-  //   $('#log-in-container').toggle('waves-block');
-  // });
-  $('.parallax').parallax();
-//   $('.modal').modal();
-//   $('.slider').slider();
-  $('.collapsible').collapsible();
+});
+$('.parallax').parallax();
+//   $('.collapsible').collapsible();
+
+showAndHideSocialNetworks();
 });

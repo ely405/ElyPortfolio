@@ -82,6 +82,12 @@
 .pink-text.text-accent-4 {
   color: #c51162 !important; }
 
+.blue.darken-3 {
+  background-color: #1565C0 !important; }
+
+.blue-text.text-darken-3 {
+  color: #1565C0 !important; }
+
 .green {
   background-color: #4CAF50 !important; }
 
@@ -5285,6 +5291,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .m-1rm {
   margin: 1rem; }
 
+.p-03rem {
+  padding: 0.3rem; }
+
 .z-i-1000 {
   z-index: 1000; }
 
@@ -5348,5 +5357,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
+
+#socialNetworksFixed {
+  top: 30%;
+  right: 0; }
 
 /*# sourceMappingURL=style.css.map */
