@@ -14,18 +14,13 @@ const showAndHideSocialNetworks = () => {
     });
 }
 
-
-
-
-
 $(document).ready(function(){
     //menu
     $(".button-collapse").sideNav({
-        menuWidth: '30%',
-    closeOnClick: true
-});
-$('.parallax').parallax();
-//   $('.collapsible').collapsible();
+        menuWidth: 200,
+        closeOnClick: true
+    });
+    $('.parallax').parallax();
 
-showAndHideSocialNetworks();
+    showAndHideSocialNetworks();
 });

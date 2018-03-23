@@ -55,8 +55,8 @@ const portfolioDetail = [
         imgAlt: 'Chat con firebase',
         imgSrc: 'assets/img/startBootstrap.png',
         detail: `Es una aplicación con la que te puedes comunicar con varias personas a la vez`,
-        urlDemo: 'https://ely405.github.io/start-boostrap/',
-        urlGithub: 'https://github.com/ely405/start-boostrap',
+        urlDemo: 'https://chat-59585.firebaseapp.com/',
+        urlGithub: 'https://github.com/ely405/chat-react-firebase',
         icons: ['fab fa-js-square fa-3x', 'fab fa-react fa-3x', 'icon-firebase ico-5x', 'icon-webpack ico-3x', 'fab fa-css3-alt fa-3x']        
     }
 ]
