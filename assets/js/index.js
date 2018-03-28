@@ -21,6 +21,15 @@ const showAndHideSocialNetworks = () => {
 }
 
 $(document).ready(function () {
+	new Typed('#preloader-text', {
+		strings: ['Soy coder', 'Soy <strong>mujer</strong>'],
+		typeSpeed: 100,
+		backSpeed: 100,
+		loop: true,
+		smartBackspace: true,
+		loopCount : 3,
+		showCursor : false 
+	});
 	//menu
 	$(".button-collapse").sideNav({
 		menuWidth: 200,
