@@ -1,4 +1,4 @@
-window.onload = function(e){ 
+window.onload = function (e) {
 	$('#page-loader').fadeOut(1000);
 	$('#page-loader').css('background', 'black');
 }
@@ -27,8 +27,8 @@ $(document).ready(function () {
 		backSpeed: 100,
 		loop: true,
 		smartBackspace: true,
-		loopCount : 3,
-		showCursor : false 
+		loopCount: 3,
+		showCursor: false
 	});
 	//menu
 	$(".button-collapse").sideNav({
