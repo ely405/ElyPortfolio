@@ -1,114 +1,121 @@
 @import "materialize/materialize";
 @import "./icomoon";
-
-.justify-around{
-  justify-content: space-around;
+@import "./preloader";
+.justify-around {
+	justify-content: space-around;
 }
 
-.flex-wrap{
-  flex-wrap: wrap;
+.flex-wrap {
+	flex-wrap: wrap;
 }
 
-.m-1rm{
-  margin: 1rem;
+.m-1rm {
+	margin: 1rem;
 }
 
-.p-03rem{
-    padding: 0.3rem;
+.p-03rem {
+	padding: 0.3rem;
 }
 
 //header
-.z-i-1000{
-  z-index: 1000;
+.z-i-1000 {
+	z-index: 1000;
 }
 
 //home
-#home{
-  & .circle-logo{
-    height: 18rem;
-    width: 18rem;
-    @media #{$large-and-up} {
-      height: 25rem;
-      width: 25rem;
-    }
-  }
-  h2{
-    border: 0.5rem solid;
-  }
+#home {
+	& .circle-logo {
+		height: 18rem;
+		width: 18rem;
+		@media #{$large-and-up} {
+			height: 25rem;
+			width: 25rem;
+		}
+	}
+	h2 {
+		border: 0.5rem solid;
+	}
 }
 
 //conóceme
-.im-list{
-  & li{
-    border-bottom: 1px solid gray;
-  }
+.im-list {
+	& li {
+		border-bottom: 1px solid gray;
+	}
 }
 
 //habilidades
 @-webkit-keyframes skills-icons-animation {
-  to {color: deeppink}
-  from {color: pink}
+	to {
+		color: deeppink
+	}
+	from {
+		color: pink
+	}
 }
 
 @keyframes skills-icons-animation {
-  to {
-        color: deeppink; 
-        -ms-transform: scale(2,2);
-        -webkit-transform: scale(2,2);
-        transform: scale(1.5,1.5);
-    }
-  from {
-        color: pink;
-        -ms-transform: scale(1,1);
-        -webkit-transform: scale(1,1);
-        transform: scale(1,1);
-    }
+	to {
+		color: deeppink;
+		-ms-transform: scale(2, 2);
+		-webkit-transform: scale(2, 2);
+		transform: scale(1.5, 1.5);
+	}
+	from {
+		color: pink;
+		-ms-transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
 }
 
 .skills-icons {
-  & li{
-    transition-duration: 1s;
-  }
-  & li:hover{
-    color: pink;
-    animation-iteration-count: 2;
-    -webkit-animation-name: skills-icons-animation;
-    -webkit-animation-duration: 4s;
-    animation-name: skills-icons-animation;
-    animation-duration: 0.5s;
-    animation-direction: alternate;
-
-    & p{
-        display: none;
-    }
-  }
+	& li {
+		transition-duration: 1s;
+	}
+	& li:hover {
+		color: pink;
+		animation-iteration-count: 2;
+		-webkit-animation-name: skills-icons-animation;
+		-webkit-animation-duration: 4s;
+		animation-name: skills-icons-animation;
+		animation-duration: 0.5s;
+		animation-direction: alternate;
+		& p {
+			display: none;
+		}
+	}
 }
 
 // contactame 
 .contact-icons .contact-li {
-  width: 5rem;
-  height: 5rem;
-  background-color: #f50057;
-  &:hover{
-    background-color: gray;
-  }
-  &.btn-fix-contact{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-  }
+	width: 5rem;
+	height: 5rem;
+	background-color: #f50057;
+	&:hover {
+		background-color: gray;
+		a {
+			-ms-transform: scale(1.5, 1.5);
+			-webkit-transform: scale(1.5, 1.5);
+			transform: scale(1.5, 1.5);
+		}
+	}
+	&.btn-fix-contact {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
 }
 
-.contact-icons .contact-li:after, .contact-icons-list .contact-li {
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  -webkit-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-#socialNetworksFixed{
-    top: 30%;
-    right: 0;
+// .contact-icons .contact-li:after, .contact-icons-list .contact-li {
+//   height: 80px;
+//   width: 80px;
+//   line-height: 80px;
+//   -webkit-transition: all .2s ease-in-out;
+//   -o-transition: all .2s ease-in-out;
+//   transition: all .2s ease-in-out;
+// }
+#socialNetworksFixed {
+	top: 30%;
+	right: 0;
 }
