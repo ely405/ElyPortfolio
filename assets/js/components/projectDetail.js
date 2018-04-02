@@ -1,7 +1,7 @@
  'use strict';
 
 const proyectDetail = (element) => {
-    let row = $(' <div class="row container"></div>');
+    let row = $(' <div class="row container valign-wrapper justify-center flex-wrap"></div>');
     element.map(e => {
         const { title, imgSrc, imgAlt, detail, urlDemo, urlGithub, icons} = e;
         let list = $('<ul class="valign-wrapper justify-around flex-wrap"></ul>');

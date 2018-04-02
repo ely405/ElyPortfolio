@@ -22,7 +22,7 @@ const showAndHideSocialNetworks = () => {
 
 $(document).ready(function () {
 	new Typed('#preloader-text', {
-		strings: ['Soy coder', 'Soy <strong>mujer</strong>'],
+		strings: ['Hazlo simple: tan simple como sea posible, pero no más <small>Albert Einsten</small>', 'Hagas lo que hagas, hazlo com pasión.', '<strong>Sonríe</strong> a la vida, y la vida te devooverá esa sonrisa.'],
 		typeSpeed: 100,
 		backSpeed: 100,
 		loop: true,

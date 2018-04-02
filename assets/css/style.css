@@ -1,3 +1,15 @@
+.red.darken-3 {
+  background-color: #C62828 !important; }
+
+.red-text.text-darken-3 {
+  color: #C62828 !important; }
+
+.red.accent-4 {
+  background-color: #D50000 !important; }
+
+.red-text.text-accent-4 {
+  color: #D50000 !important; }
+
 .pink {
   background-color: #e91e63 !important; }
 
@@ -5294,7 +5306,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   #page-loader .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #FF1493;
     width: 120px;
     height: 120px;
     -webkit-animation: spinLoader 2s linear infinite;
@@ -5315,6 +5327,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .flex-wrap {
   flex-wrap: wrap; }
+
+.align-end {
+  align-items: flex-end; }
 
 .m-1rm {
   margin: 1rem; }
@@ -5385,5 +5400,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #socialNetworksFixed {
   top: 30%;
   right: 0; }
+  #socialNetworksFixed .contact-li {
+    width: 2.5rem; }
+  #socialNetworksFixed a {
+    transition: all 500ms ease; }
+  #socialNetworksFixed .contact-li a:hover {
+    padding-right: 3.5rem;
+    background-color: gray; }
 
 /*# sourceMappingURL=style.css.map */

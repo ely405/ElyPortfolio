@@ -9,6 +9,10 @@
 	flex-wrap: wrap;
 }
 
+.align-end{
+	align-items: flex-end;
+}
+
 .m-1rm {
 	margin: 1rem;
 }
@@ -109,4 +113,14 @@
 #socialNetworksFixed {
 	top: 30%;
 	right: 0;
+	.contact-li {
+		width: 2.5rem;
+	}
+	a{
+		transition: all 500ms ease;
+	}
+	.contact-li a:hover{
+		padding-right: 3.5rem;
+		background-color: gray;
+	}
 }
