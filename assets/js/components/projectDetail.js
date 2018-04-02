@@ -20,7 +20,7 @@ const proyectDetail = (element) => {
         let cardContent = $(`<div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">${title}<i class="material-icons right">more_vert</i></span>
                                 <a class="btn waves-effect m-1rm" href="${urlGithub}" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                <a class="btn waves-effect m-1rm" href="${urlDemo}"><i class="fa fa-external-link-alt"></i> Demo</a>
+                                <a class="btn waves-effect m-1rm" href="${urlDemo}" target="_blank"><i class="fa fa-external-link-alt"></i> Demo</a>
                             </div>`);
         let cardReveral = $(`<div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">${title}<i class="material-icons right">close</i></span>
@@ -53,7 +53,7 @@ const portfolioDetail = [
     },{
         title: 'Chat',
         imgAlt: 'Chat con firebase',
-        imgSrc: 'assets/img/startBootstrap.png',
+        imgSrc: 'assets/img/chat.png',
         detail: `Es una aplicación con la que te puedes comunicar con varias personas a la vez`,
         urlDemo: 'https://chat-59585.firebaseapp.com/',
         urlGithub: 'https://github.com/ely405/chat-react-firebase',
