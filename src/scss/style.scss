@@ -9,7 +9,7 @@
 	flex-wrap: wrap;
 }
 
-.align-end{
+.align-end {
 	align-items: flex-end;
 }
 
@@ -94,13 +94,17 @@
 .contact-icons .contact-li {
 	width: 5rem;
 	height: 5rem;
-	background-color: #f50057;
+	background-color: #D92567;
+	margin: 0.1rem;
 	&:hover {
 		background-color: gray;
+		border-radius: 50%;
+		transition: all 600ms ease;		
 		a {
 			-ms-transform: scale(1.5, 1.5);
 			-webkit-transform: scale(1.5, 1.5);
 			transform: scale(1.5, 1.5);
+			transition: all 500ms ease;
 		}
 	}
 	&.btn-fix-contact {
@@ -116,10 +120,10 @@
 	.contact-li {
 		width: 2.5rem;
 	}
-	a{
+	a {
 		transition: all 500ms ease;
 	}
-	.contact-li a:hover{
+	.contact-li a:hover {
 		padding-right: 3.5rem;
 		background-color: gray;
 	}

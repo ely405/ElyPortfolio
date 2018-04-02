@@ -5385,13 +5385,17 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .contact-icons .contact-li {
   width: 5rem;
   height: 5rem;
-  background-color: #f50057; }
+  background-color: #D92567;
+  margin: 0.1rem; }
   .contact-icons .contact-li:hover {
-    background-color: gray; }
+    background-color: gray;
+    border-radius: 50%;
+    transition: all 600ms ease; }
     .contact-icons .contact-li:hover a {
       -ms-transform: scale(1.5, 1.5);
       -webkit-transform: scale(1.5, 1.5);
-      transform: scale(1.5, 1.5); }
+      transform: scale(1.5, 1.5);
+      transition: all 500ms ease; }
   .contact-icons .contact-li.btn-fix-contact {
     position: fixed;
     bottom: 0;
