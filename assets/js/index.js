@@ -1,5 +1,5 @@
 window.onload = function (e) {
-	$('#page-loader').fadeOut(1000);
+	$('#page-loader').fadeOut(500);
 	$('#page-loader').css('background', 'black');
 }
 
