@@ -5334,11 +5334,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .m-1rm {
   margin: 1rem; }
 
-.p-03rem {
-  padding: 0.3rem; }
-
 .z-i-1000 {
   z-index: 1000; }
+
+.p-1rem {
+  padding: 1rem; }
+
+.p-03rem {
+  padding: 0.3rem; }
 
 #home .circle-logo {
   height: 18rem;
@@ -5352,6 +5355,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .im-list li {
   border-bottom: 1px solid gray; }
+
+.card-project .card-image:hover img {
+  -ms-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+  transform: scale(0.9);
+  transition: all 500ms ease; }
 
 @-webkit-keyframes skills-icons-animation {
   to {

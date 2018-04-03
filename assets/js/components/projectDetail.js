@@ -30,7 +30,7 @@
  		})
 
  		let container = $('<div class="col m6"></div>');
- 		let card = $('<div class="card"></div>')
+ 		let card = $('<div class="card card-project"></div>')
  		let img = $(`<div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src=${imgSrc} alt=${imgAlt}
                     </div>`);

@@ -17,12 +17,16 @@
 	margin: 1rem;
 }
 
-.p-03rem {
-	padding: 0.3rem;
-}
-
 .z-i-1000 {
 	z-index: 1000;
+}
+
+.p-1rem {
+	padding: 1rem;
+}
+
+.p-03rem {
+	padding: 0.3rem;
 }
 
 //home
@@ -44,6 +48,16 @@
 .im-list {
 	& li {
 		border-bottom: 1px solid gray;
+	}
+}
+
+//portfolio
+.card-project {
+	.card-image:hover img {
+		-ms-transform: scale(2, 2);
+		-webkit-transform: scale(2, 2);
+		transform: scale(0.9);
+		transition: all 500ms ease;
 	}
 }
 
@@ -99,7 +113,7 @@
 	&:hover {
 		background-color: gray;
 		border-radius: 50%;
-		transition: all 600ms ease;		
+		transition: all 600ms ease;
 		a {
 			-ms-transform: scale(1.5, 1.5);
 			-webkit-transform: scale(1.5, 1.5);
