@@ -1,7 +1,7 @@
 'use strict';
 
 const skillsSection = (element) => {
-    const listContainer = $('<ul class="skills-icons valign-wrapper justify-center flex-wrap container scrollflow -pop col"></ul>');
+    const listContainer = $('<ul class="skills-icons valign-wrapper justify-center flex-wrap container scrollflow -pop"></ul>');
 
     element.map(el => {
         const { name, classIcon } = el;
