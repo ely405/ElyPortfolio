@@ -21,16 +21,6 @@ const showAndHideSocialNetworks = () => {
 }
 
 $(document).ready(function () {
-	new Typed('#preloader-text', {
-		strings: ['Soy <small>Frontend Developer</small>', 'Hagas lo que hagas, hazlo com pasión.'],
-		typeSpeed: 100,
-		backSpeed: 100,
-		loop: true,
-		smartBackspace: true,
-		loopCount: 3,
-		showCursor: false
-	});
-	//menu
 	$(".button-collapse").sideNav({
 		menuWidth: 200,
 		closeOnClick: true
