@@ -34,10 +34,12 @@
  		let img = $(`<div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src=${imgSrc} alt=${imgAlt}
                     </div>`);
- 		let cardContent = $(`<div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">${title}<i class="material-icons right">more_vert</i></span>
-                                <a class="btn waves-effect m-1rm" href="${urlGithub}" target="_blank"><i class="fab fa-github"></i> <strong class="hide-on-med-and-down">Github</strong></a>
-                                <a class="btn waves-effect m-1rm" href="${urlDemo}" target="_blank"><i class="fa fa-external-link-alt"></i> <strong class="hide-on-med-and-down">Demo</strong></a>
+ 		let cardContent = $(`<div class="card-content row">
+																<span class="card-title activator grey-text text-darken-4">${title}<i class="material-icons right">more_vert</i></span>
+																<div class="col s12 valign-wrapper justify-around">
+																	<a class="btn waves-effect" href="${urlGithub}" target="_blank"><i class="fab fa-github"></i> <strong class="hide-on-med-and-down">Github</strong></a>
+																	<a class="btn waves-effect" href="${urlDemo}" target="_blank"><i class="fa fa-external-link-alt"></i> <strong class="hide-on-med-and-down">Demo</strong></a>
+																</div>
                             </div>`);
  		let cardReveral = $(`<div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">${title}<i class="material-icons right">close</i></span>

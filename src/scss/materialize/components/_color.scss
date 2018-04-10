@@ -116,11 +116,11 @@ $blue: (
 //   "darken-1":   #1E88E5,
 //   "darken-2":   #1976D2,
   "darken-3":   #1565C0,
-//   "darken-4":   #0D47A1,
-//   "accent-1":    #82B1FF,
-//   "accent-2":    #448AFF,
-//   "accent-3":    #2979FF,
-//   "accent-4":    #2962FF
+  // "darken-4":   #0D47A1,
+  // "accent-1":    #82B1FF,
+  // "accent-2":    #448AFF,
+  // "accent-3":    #2979FF,
+  // "accent-4":    #2962FF
 );
 
 // $light-blue: (
@@ -157,22 +157,22 @@ $blue: (
 //   "accent-4":    #00b8d4
 // );
 
-$teal: (
+// $teal: (
   // "base":       #009688,
   // "lighten-5":  #e0f2f1,
   // "lighten-4":  #b2dfdb,
   // "lighten-3":  #80cbc4,
   // "lighten-2":  #4db6ac,
-  "lighten-1":  #26a69a,
-  "darken-1":   #00897b,
-  "darken-2":   #00796b,
+  // "lighten-1":  #26a69a,
+  // "darken-1":   #00897b,
+  // "darken-2":   #00796b,
   // "darken-3":   #00695c,
   // "darken-4":   #004d40,
   // "accent-1":    #a7ffeb,
   // "accent-2":    #64ffda,
   // "accent-3":    #1de9b6,
   // "accent-4":    #00bfa5
-);
+// );
 
 $green: (
   "base":       #4CAF50,
@@ -348,7 +348,7 @@ $colors: (
   "blue": $blue,
   // "light-blue": $light-blue,
 //   "cyan": $cyan,
-  "teal": $teal,
+  // "teal": $teal,
   "green": $green,
   // "light-green": $light-green,
   // "lime": $lime,
