@@ -1,8 +1,6 @@
 window.onload = function (e) {
-	$('#page-loader').fadeOut(500);
-	$('#page-loader').css('background', 'black');
+	$('#page-loader').fadeOut();
 }
-
 
 const showAndHideSocialNetworks = () => {
 	$('#socialNetworksFixed').hide();
