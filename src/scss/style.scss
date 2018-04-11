@@ -29,18 +29,21 @@
 	padding: 0.3rem;
 }
 
+//body 
+body {
+	background-image:  linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url('../img/home.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 //home
-#home {
-	& .circle-logo {
-		height: 18rem;
-		width: 18rem;
-		@media #{$large-and-up} {
-			height: 25rem;
-			width: 25rem;
-		}
-	}
+.home-name {
+	height: 30vh;
 	h2 {
-		border: 0.5rem solid;
+		border-bottom: 0.1rem solid;
+		width: 100%;
 	}
 }
 

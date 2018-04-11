@@ -5234,15 +5234,18 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .p-03rem {
   padding: 0.3rem; }
 
-#home .circle-logo {
-  height: 18rem;
-  width: 18rem; }
-  @media only screen and (min-width: 993px) {
-    #home .circle-logo {
-      height: 25rem;
-      width: 25rem; } }
-#home h2 {
-  border: 0.5rem solid; }
+body {
+  background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.home-name {
+  height: 30vh; }
+  .home-name h2 {
+    border-bottom: 0.1rem solid;
+    width: 100%; }
 
 .im-list li {
   border-bottom: 1px solid gray; }
