@@ -23,7 +23,5 @@ $(document).ready(function () {
 		menuWidth: '60%',
 		closeOnClick: true
 	});
-	// $('.parallax').parallax();
-
 	showAndHideSocialNetworks();
 });
