@@ -18,50 +18,32 @@ const showAndHideSocialNetworks = () => {
 	});
 }
 
-const forMenuMediaqueryChange = (mediaquery) => {
-	if (mediaquery.matches) {
-			$('.parallax').parallax();
-	} 
-	// else {
-	// 		$('body').css({
-	// 				left: '0',
-	// 				position: 'abosulute',
-	// 				width: '100%'
-	// 		});
-	// 		restartMenuMobile('0');
-	// }
-}
-
-
 const detectIfIsMobile = () => {
 	let isMobile = {
 		Android: function () {
-				return navigator.userAgent.match(/Android/i);
+			return navigator.userAgent.match(/Android/i);
 		},
 		BlackBerry: function () {
-				return navigator.userAgent.match(/BlackBerry/i);
+			return navigator.userAgent.match(/BlackBerry/i);
 		},
 		iOS: function () {
-				return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 		},
 		Opera: function () {
-				return navigator.userAgent.match(/Opera Mini/i);
+			return navigator.userAgent.match(/Opera Mini/i);
 		},
 		Windows: function () {
-				return navigator.userAgent.match(/IEMobile/i);
+			return navigator.userAgent.match(/IEMobile/i);
 		},
 		any: function () {
-				return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
 
-	if (isMobile.any())
-	{
-		alert('Dispositivo móvil detectado');
+	if (isMobile.any()) {
+		$('.parallax').parallax();
 	}
 }
-
-
 
 $(document).ready(function () {
 	$(".button-collapse").sideNav({
@@ -70,9 +52,4 @@ $(document).ready(function () {
 	});
 	showAndHideSocialNetworks();
 	detectIfIsMobile();
-	
-	const windowsize = window.matchMedia("only screen and (max-width : 600px)");
-    forMenuMediaqueryChange(windowsize);
-    windowsize.addListener(forMenuMediaqueryChange);
-
 });
