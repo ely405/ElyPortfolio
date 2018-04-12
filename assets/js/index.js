@@ -20,10 +20,10 @@ const showAndHideSocialNetworks = () => {
 
 $(document).ready(function () {
 	$(".button-collapse").sideNav({
-		menuWidth: 200,
+		menuWidth: '60%',
 		closeOnClick: true
 	});
-	$('.parallax').parallax();
+	// $('.parallax').parallax();
 
 	showAndHideSocialNetworks();
 });
