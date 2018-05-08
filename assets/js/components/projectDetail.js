@@ -84,6 +84,18 @@
  		'Uso de herramientas de automatización (Webpack)',
  		'Uso de framework Bootstrap'
  	]
+ }, {
+	 title: 'E-commerce',
+	 imgAlt: 'Foto de la página E-commerce',
+	 imgSrc: 'assets/img/e-commerce.png',
+	 detail: 'E-commerce es una aplicación en la que podrás encontrar los productos a los mejores precios! ',
+	 urlDemo: 'https://ely405.github.io/e-commerce',
+	 urlGithub: 'https://github.com/ely405/e-commerce',
+	 icons: ['fab fa-js-square fa-3x', 'fab fa-react fa-3x', 'icon-redux ico-3x', 'fab fa-css3-alt fa-3x'],
+	 projectFeature: [
+		 'Single Page Application, usamos React js',
+		 'Manejo del estado con redux',
+	 ]
  }]
 
  $('#rootPortfolio').append(proyectDetail(portfolioDetail));

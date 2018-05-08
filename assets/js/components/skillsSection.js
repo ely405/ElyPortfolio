@@ -19,9 +19,12 @@ const skills = [
         name: 'Javascript',
         classIcon: 'fab fa-js-square fa-5x',
     },{
-        name: 'React',
+        name: 'React js',
         classIcon: 'fab fa-react fa-5x',
     },{
+				name: 'Redux',
+				classIcon: 'icon-redux ico-5x',
+		},{
         name: 'Jquery',
         classIcon: 'icon-jquery ico-5x',
     },{
